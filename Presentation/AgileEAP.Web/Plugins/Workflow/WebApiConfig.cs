@@ -32,12 +32,39 @@ namespace AgileEAP.Plugin.Workflow
             var resolver = new AutofacWebApiDependencyResolver(container);
             config.MessageHandlers.Add(new WebApiAuthenticationHandler(container.Resolve<ITokenAuthentication>()));
             config.DependencyResolver = resolver;
-          //  builder.RegisterWebApiFilterProvider(config);
+            //  builder.RegisterWebApiFilterProvider(config);
             config.Routes.MapHttpRoute(name: "Workflow.Web.Api",
                 routeTemplate: "workflow/api/{action}",
                 defaults: new { controller = "WorkflowApi", id = RouteParameter.Optional });
 
+            //删除了
             TraceConfig.Register(config);
+        }
+    }
+
+    public static class TraceConfig
+    {
+        /// <summary>
+        /// Registers the <see cref="ITraceWriter"/> implementation to use
+        /// for this application.
+        /// </summary>
+        /// <param name="configuration">The <see cref="HttpConfiguration"/> in which
+        /// to register the trace writer.</param>
+        public static void Register(HttpConfiguration configuration)
+        {
+            if (configuration == null)
+            {
+                throw new ArgumentNullException("configuration");
+            }
+
+            SystemDiagnosticsTraceWriter traceWriter =
+                new SystemDiagnosticsTraceWriter()
+                {
+                    MinimumLevel = TraceLevel.Info,
+                    IsVerbose = false
+                };
+
+            configuration.Services.Replace(typeof(ITraceWriter), traceWriter);
         }
     }
 }

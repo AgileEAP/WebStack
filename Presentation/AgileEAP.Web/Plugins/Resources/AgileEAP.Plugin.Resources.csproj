@@ -49,6 +49,15 @@
       <HintPath>..\..\..\..\..\Lib\AgileEAP\AgileEAP.MVC.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\..\..\Lib\packages\Autofac.3.0.1\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Configuration">
+      <HintPath>..\..\..\..\..\Lib\packages\Autofac.3.0.1\lib\net40\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\..\..\..\..\Lib\packages\Autofac.Mvc4.3.0.0\lib\net40\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Web" />
   </ItemGroup>
@@ -883,8 +892,9 @@
     <Content Include="Scripts\jquery-1.8.1.js" />
     <Content Include="Scripts\jquery-1.8.1.min.js" />
     <Content Include="Scripts\jquery-1.8.3.js" />
-    <Content Include="Scripts\jquery-1.9.0.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jQuery-File-Upload\js\locale.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jQuery-File-Upload\cors\postmessage.html" />
@@ -1639,7 +1649,7 @@
     <None Include="Scripts\ckeditor\ckeditor.php" />
     <None Include="Scripts\ckeditor\ckeditor_php4.php" />
     <None Include="Scripts\ckeditor\ckeditor_php5.php" />
-    <None Include="Scripts\jquery-1.9.0.min.map" />
+    <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\jQuery-File-Upload\package.json" />
   </ItemGroup>
   <PropertyGroup>

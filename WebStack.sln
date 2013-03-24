@@ -19,13 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileEAP.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileEAP.Plugin.Resources", "Presentation\AgileEAP.Web\Plugins\Resources\AgileEAP.Plugin.Resources.csproj", "{C438DE7C-DDA9-4E30-A90B-B4869C482973}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{76F0482F-696F-4D64-B4AB-5A4BBD2EA497}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileEAP.Web", "Presentation\AgileEAP.Web\AgileEAP.Web.csproj", "{4F1F649C-1020-45BE-A487-F416D9297FF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{9A1E8CD2-3F0D-469F-ADD1-EC4B43ABFB3C}"
@@ -44,6 +37,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileEAP.Module.MongoDB", "Modules\AgileEAP.Module.MongoDB\AgileEAP.Module.MongoDB.csproj", "{BCF35832-5273-4E1F-995C-515E657FF01D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileEAP.Plugin.DatabaseStudio", "Presentation\AgileEAP.Web\Plugins\AgileEAP.Plugin.DatabaseStudio\AgileEAP.Plugin.DatabaseStudio.csproj", "{3E91D777-4AFD-41C4-A6DE-A72ED70A2F76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{77D0D2FB-F9F6-453B-B04A-A12E165C89D3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

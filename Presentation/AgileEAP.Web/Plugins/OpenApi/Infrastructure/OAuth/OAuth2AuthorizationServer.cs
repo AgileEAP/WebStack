@@ -164,5 +164,50 @@ namespace AgileEAP.Plugin.OpenApi.HostSample.Infrastructure.OAuth {
 
 			return requestedScopes.IsSubsetOf(grantedScopes);
 		}
-	}
+
+        public AutomatedAuthorizationCheckResponse CheckAuthorizeClientCredentialsGrant(IAccessTokenRequest accessRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        public AutomatedUserAuthorizationCheckResponse CheckAuthorizeResourceOwnerCredentialGrant(string userName, string password, IAccessTokenRequest accessRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        AutomatedAuthorizationCheckResponse IAuthorizationServerHost.CheckAuthorizeClientCredentialsGrant(IAccessTokenRequest accessRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        AutomatedUserAuthorizationCheckResponse IAuthorizationServerHost.CheckAuthorizeResourceOwnerCredentialGrant(string userName, string password, IAccessTokenRequest accessRequest)
+        {
+            throw new NotImplementedException();
+        }
+
+        AccessTokenResult IAuthorizationServerHost.CreateAccessToken(IAccessTokenRequest accessTokenRequestMessage)
+        {
+            throw new NotImplementedException();
+        }
+
+        ICryptoKeyStore IAuthorizationServerHost.CryptoKeyStore
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        IClientDescription IAuthorizationServerHost.GetClient(string clientIdentifier)
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IAuthorizationServerHost.IsAuthorizationValid(IAuthorizationDescription authorization)
+        {
+            throw new NotImplementedException();
+        }
+
+        INonceStore IAuthorizationServerHost.NonceStore
+        {
+            get { throw new NotImplementedException(); }
+        }
+    }
 }

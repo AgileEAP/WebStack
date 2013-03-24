@@ -62,20 +62,20 @@
     <Reference Include="AgileEAP.MVC">
       <HintPath>..\..\..\Lib\AgileEAP\AgileEAP.MVC.dll</HintPath>
     </Reference>
-    <Reference Include="Autofac, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\Autofac.2.6.3.862\lib\NET40\Autofac.dll</HintPath>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\..\..\Lib\Packages\WebGrease.1.3.0\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Autofac.Configuration, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\Autofac.2.6.3.862\lib\NET40\Autofac.Configuration.dll</HintPath>
+    <Reference Include="Autofac">
+      <HintPath>..\..\..\Lib\Packages\Autofac.3.0.1\lib\net40\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="Autofac.Integration.Mvc, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\Autofac.Mvc3.2.6.3.862\lib\NET40\Autofac.Integration.Mvc.dll</HintPath>
+    <Reference Include="Autofac.Configuration">
+      <HintPath>..\..\..\Lib\Packages\Autofac.3.0.1\lib\net40\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\..\..\Lib\Packages\Autofac.Mvc4.3.0.0\lib\net40\Autofac.Integration.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Autofac.Integration.WebApi">
-      <HintPath>..\..\..\Lib\packages\Autofac.WebApi.2.6.2.859\lib\NET40\Autofac.Integration.WebApi.dll</HintPath>
+      <HintPath>..\..\..\Lib\Packages\Autofac.WebApi.3.0.0\lib\net40\Autofac.Integration.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="FluentValidation, Version=3.4.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -85,6 +85,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Lib\packages\FluentValidation.MVC3.3.4.6.0\lib\Net40\FluentValidation.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\..\Lib\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
     <Reference Include="Kendo.Mvc">
       <HintPath>..\..\..\Lib\packages\KendoUIWeb.2012.3.1114\lib\Mvc3\Kendo.Mvc.dll</HintPath>
     </Reference>
@@ -92,48 +95,33 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Lib\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="MiniProfiler, Version=2.0.2.0, Culture=neutral, PublicKeyToken=b44f9351044011a3, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\MiniProfiler.2.0.2\lib\net40\MiniProfiler.dll</HintPath>
+    <Reference Include="MiniProfiler">
+      <HintPath>..\..\..\Lib\Packages\MiniProfiler.2.1.0\lib\net40\MiniProfiler.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\MySql.Data.6.5.4\lib\net40\MySql.Data.dll</HintPath>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Lib\Packages\MySql.Data.6.6.4\lib\net40\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\..\..\Lib\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\Lib\Packages\NHibernate.3.3.3.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="RouteDebugger, Version=2.1.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Lib\packages\routedebugger.2.1.4.0\lib\net40\RouteDebugger.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Common, Version=3.9.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\ServiceStack.Common.3.9.25\lib\net35\ServiceStack.Common.dll</HintPath>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\..\..\Lib\Packages\ServiceStack.Common.3.9.42\lib\net35\ServiceStack.Common.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Interfaces, Version=3.9.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\ServiceStack.Common.3.9.25\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\..\..\Lib\Packages\ServiceStack.Common.3.9.42\lib\net35\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.Redis, Version=3.9.25.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\ServiceStack.Redis.3.9.25\lib\net35\ServiceStack.Redis.dll</HintPath>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\..\..\Lib\Packages\ServiceStack.Redis.3.9.42\lib\net35\ServiceStack.Redis.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Text">
-      <HintPath>..\..\..\Lib\packages\ServiceStack.Text.3.9.27\lib\net35\ServiceStack.Text.dll</HintPath>
-    </Reference>
-    <Reference Include="SignalR">
-      <HintPath>..\..\..\Lib\packages\SignalR.Server.0.5.3\lib\net40\SignalR.dll</HintPath>
-    </Reference>
-    <Reference Include="SignalR.Hosting.AspNet">
-      <HintPath>..\..\..\Lib\packages\SignalR.Hosting.AspNet.0.5.3\lib\net40\SignalR.Hosting.AspNet.dll</HintPath>
-    </Reference>
-    <Reference Include="SignalR.Hosting.Common">
-      <HintPath>..\..\..\Lib\packages\SignalR.Hosting.Common.0.5.3\lib\net40\SignalR.Hosting.Common.dll</HintPath>
+      <HintPath>..\..\..\Lib\Packages\ServiceStack.Text.3.9.42\lib\net35\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.IO.Compression" />
@@ -172,6 +160,9 @@
       <Private>True</Private>
       <HintPath>..\..\..\Lib\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\..\Lib\Packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\..\..\Lib\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll</HintPath>
@@ -191,9 +182,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Telerik.Web.Mvc, Version=2012.3.1018.340, Culture=neutral, PublicKeyToken=29ac1a93ec063d92, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Lib\packages\TelerikMvcExtensions.2012.3.1018\lib\net40\Telerik.Web.Mvc.dll</HintPath>
+    <Reference Include="WebGrease">
+      <HintPath>..\..\..\Lib\Packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -242,7 +232,6 @@
     <Compile Include="Validators\Common\AddressValidator.cs" />
     <Compile Include="Validators\Install\InstallValidator.cs" />
     <Compile Include="Validators\Common\ContactUsValidator.cs" />
-    <None Include="Scripts\jquery-1.8.3.intellisense.js" />
     <Content Include="Content\Images\plugin.png" />
     <Content Include="Content\kendo\2012.3.1114\Black\editor.png" />
     <Content Include="Content\kendo\2012.3.1114\Black\imagebrowser.png" />
@@ -352,11 +341,13 @@
     <Content Include="Content\kendo\2012.3.1114\Uniform\slider-h.gif" />
     <Content Include="Content\kendo\2012.3.1114\Uniform\slider-v.gif" />
     <Content Include="Content\kendo\2012.3.1114\Uniform\sprite.png" />
-    <Content Include="Scripts\jquery-1.8.3.js" />
-    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Views\Plugin\Index.cshtml" />
     <Content Include="Views\Plugin\Import.cshtml" />
     <Content Include="Views\Shared\_Kendo.cshtml" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Install\Views\Install\CreateUser.cshtml" />
@@ -381,206 +372,6 @@
     <Content Include="CfgFiles\FireBird.cfg.xml" />
     <Content Include="CfgFiles\log4net.cfg.xml" />
     <Content Include="clientaccesspolicy.xml" />
-    <Content Include="Content\2012.3.1018\Black\editor.png" />
-    <Content Include="Content\2012.3.1018\Black\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Black\loading.gif" />
-    <Content Include="Content\2012.3.1018\Black\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Black\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Black\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Black\sprite.png" />
-    <Content Include="Content\2012.3.1018\Black\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Black\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Black\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Default\editor.png" />
-    <Content Include="Content\2012.3.1018\Default\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Default\loading.gif" />
-    <Content Include="Content\2012.3.1018\Default\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Default\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Default\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Default\sprite.png" />
-    <Content Include="Content\2012.3.1018\Default\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Default\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Default\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Forest\editor.png" />
-    <Content Include="Content\2012.3.1018\Forest\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Forest\loading.gif" />
-    <Content Include="Content\2012.3.1018\Forest\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Forest\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Forest\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Forest\sprite.png" />
-    <Content Include="Content\2012.3.1018\Forest\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Forest\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Forest\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Hay\editor.png" />
-    <Content Include="Content\2012.3.1018\Hay\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Hay\loading.gif" />
-    <Content Include="Content\2012.3.1018\Hay\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Hay\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Hay\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Hay\sprite.png" />
-    <Content Include="Content\2012.3.1018\Hay\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Hay\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Hay\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Metro\editor.png" />
-    <Content Include="Content\2012.3.1018\Metro\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Metro\loading.gif" />
-    <Content Include="Content\2012.3.1018\Metro\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Metro\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Metro\sprite.png" />
-    <Content Include="Content\2012.3.1018\Office2007\editor.png" />
-    <Content Include="Content\2012.3.1018\Office2007\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Office2007\loading.gif" />
-    <Content Include="Content\2012.3.1018\Office2007\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Office2007\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Office2007\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Office2007\sprite.png" />
-    <Content Include="Content\2012.3.1018\Office2007\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Office2007\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Office2007\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\editor.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\loading.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Black\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Black\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Black\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\sprite.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Office2010Black\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\editor.png" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\gradient.png" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\loading.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Office2010Blue\sprite.png" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\editor.png" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\gradient.png" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\loading.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Office2010Silver\sprite.png" />
-    <Content Include="Content\2012.3.1018\Outlook\editor.png" />
-    <Content Include="Content\2012.3.1018\Outlook\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Outlook\loading.gif" />
-    <Content Include="Content\2012.3.1018\Outlook\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Outlook\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Outlook\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Outlook\sprite.png" />
-    <Content Include="Content\2012.3.1018\Outlook\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Outlook\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Outlook\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Simple\editor.png" />
-    <Content Include="Content\2012.3.1018\Simple\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Simple\loading.gif" />
-    <Content Include="Content\2012.3.1018\Simple\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Simple\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Simple\sprite.png" />
-    <Content Include="Content\2012.3.1018\Simple\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Simple\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Simple\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\editor.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\loading.gif" />
-    <Content Include="Content\2012.3.1018\Sitefinity\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Sitefinity\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Sitefinity\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\sprite.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Sitefinity\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Sunset\editor.png" />
-    <Content Include="Content\2012.3.1018\Sunset\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Sunset\loading.gif" />
-    <Content Include="Content\2012.3.1018\Sunset\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Sunset\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Sunset\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Sunset\sprite.png" />
-    <Content Include="Content\2012.3.1018\Sunset\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Sunset\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Sunset\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\telerik.black.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.common.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.default.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.forest.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.hay.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.metro.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.office2007.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.office2010black.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.office2010blue.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.office2010silver.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.outlook.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.rtl.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.simple.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.sitefinity.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.sunset.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.telerik.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.transparent.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.vista.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.web20.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.webblue.min.css" />
-    <Content Include="Content\2012.3.1018\telerik.windows7.min.css" />
-    <Content Include="Content\2012.3.1018\Telerik\editor.png" />
-    <Content Include="Content\2012.3.1018\Telerik\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Telerik\loading.gif" />
-    <Content Include="Content\2012.3.1018\Telerik\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Telerik\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Telerik\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Telerik\sprite.png" />
-    <Content Include="Content\2012.3.1018\Telerik\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Telerik\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Telerik\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Transparent\active.png" />
-    <Content Include="Content\2012.3.1018\Transparent\editor.png" />
-    <Content Include="Content\2012.3.1018\Transparent\gradient.png" />
-    <Content Include="Content\2012.3.1018\Transparent\group.png" />
-    <Content Include="Content\2012.3.1018\Transparent\hover.png" />
-    <Content Include="Content\2012.3.1018\Transparent\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Transparent\loading.gif" />
-    <Content Include="Content\2012.3.1018\Transparent\selected.png" />
-    <Content Include="Content\2012.3.1018\Transparent\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Transparent\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Transparent\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Transparent\sprite.png" />
-    <Content Include="Content\2012.3.1018\Transparent\toolbar.png" />
-    <Content Include="Content\2012.3.1018\Transparent\widget.png" />
-    <Content Include="Content\2012.3.1018\Vista\editor.png" />
-    <Content Include="Content\2012.3.1018\Vista\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Vista\loading.gif" />
-    <Content Include="Content\2012.3.1018\Vista\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Vista\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Vista\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Vista\sprite.png" />
-    <Content Include="Content\2012.3.1018\Web20\editor.png" />
-    <Content Include="Content\2012.3.1018\Web20\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Web20\loading.gif" />
-    <Content Include="Content\2012.3.1018\Web20\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Web20\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Web20\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Web20\sprite.png" />
-    <Content Include="Content\2012.3.1018\Web20\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\Web20\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\Web20\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\editor.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\loading.gif" />
-    <Content Include="Content\2012.3.1018\WebBlue\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\WebBlue\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\WebBlue\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\sprite.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\treeview-line.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\treeview-nodes-rtl.png" />
-    <Content Include="Content\2012.3.1018\WebBlue\treeview-nodes.png" />
-    <Content Include="Content\2012.3.1018\Windows7\editor.png" />
-    <Content Include="Content\2012.3.1018\Windows7\imagebrowser.png" />
-    <Content Include="Content\2012.3.1018\Windows7\loading.gif" />
-    <Content Include="Content\2012.3.1018\Windows7\slider-h.gif" />
-    <Content Include="Content\2012.3.1018\Windows7\slider-v.gif" />
-    <Content Include="Content\2012.3.1018\Windows7\sprite-vertical.png" />
-    <Content Include="Content\2012.3.1018\Windows7\sprite.png" />
     <Content Include="Content\Themes\Default\Images\logout.png" />
     <Content Include="Content\Themes\Default\Images\female.png" />
     <Content Include="Content\Themes\Default\Images\NavigateBar\default.gif" />
@@ -654,39 +445,7 @@
     <Content Include="FileNotFound.htm" />
     <Content Include="Global.asax" />
     <Content Include="robots.txt" />
-    <Content Include="Scripts\2012.3.1018\jquery-1.7.1.min.js" />
-    <Content Include="Scripts\2012.3.1018\jquery.validate.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.all.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.autocomplete.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.calendar.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.chart.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.combobox.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.common.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.datepicker.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.datetimepicker.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.draganddrop.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.editor.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.editing.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.filtering.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.grouping.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.reordering.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.grid.resizing.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.imagebrowser.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.list.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.menu.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.panelbar.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.slider.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.splitter.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.tabstrip.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.textbox.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.timepicker.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.treeview.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.upload.min.js" />
-    <Content Include="Scripts\2012.3.1018\telerik.window.min.js" />
     <Content Include="Scripts\drag.js" />
-    <Content Include="Scripts\jquery-ui-1.8.18.js" />
-    <Content Include="Scripts\jquery-ui-1.8.18.min.js" />
     <Content Include="Scripts\jquery.contextMenu\jquery.contextMenu.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\accordion.js" />
@@ -714,8 +473,6 @@
     <Content Include="Scripts\jquery.mobile-1.0.js" />
     <Content Include="Scripts\jquery.mobile-1.0.min.js" />
     <Content Include="Scripts\jquery.query.js" />
-    <Content Include="Scripts\jquery.signalR-0.5.3.js" />
-    <Content Include="Scripts\jquery.signalR-0.5.3.min.js" />
     <Content Include="Scripts\Jquery\easyloader.js" />
     <Content Include="Scripts\Jquery\jquery-1.4.2.min.js" />
     <Content Include="Scripts\Jquery\jquery-ui.custom.min.js" />

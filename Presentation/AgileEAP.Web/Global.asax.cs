@@ -21,8 +21,6 @@ using AgileEAP.MVC.EmbeddedViews;
 using AgileEAP.MVC.Routes;
 using AgileEAP.MVC.Themes;
 
-using SignalR;
-
 namespace AgileEAP.Web
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
